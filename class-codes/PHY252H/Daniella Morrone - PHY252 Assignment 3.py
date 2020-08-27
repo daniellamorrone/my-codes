@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 19 23:59:20 2020
-
 Daniella Morrone
 Assignment 3 in PHY252
 """
