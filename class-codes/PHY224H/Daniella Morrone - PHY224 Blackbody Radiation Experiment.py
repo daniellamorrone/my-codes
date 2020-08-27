@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Sep 27 23:20:22 2019
-
 Daniella Morrone
 Blackbody Radiation Experiment in PHY224
 
