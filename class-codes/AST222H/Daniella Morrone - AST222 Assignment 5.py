@@ -1,8 +1,7 @@
 """
-AST222H1S Assignment 5
-
 Daniella Morrone
-1005040750
+Assignment 5 in AST222
+
 """
 
 import numpy as np
