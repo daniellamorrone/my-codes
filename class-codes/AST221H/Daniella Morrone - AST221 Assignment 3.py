@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 20 15:03:08 2019
-
-@author: daniellamorrone
-
-Written by:
-    Daniella Morrone
-    1005040750
+Daniella Morrone
+Assignment 3 in AST221
 
 """
 
