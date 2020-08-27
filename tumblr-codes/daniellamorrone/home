@@ -1,0 +1,195 @@
+<html><head>
+ 
+
+ 
+<style type="text/css">
+.postnotes{ padding-top:70px; position:relative;  }
+
+ 
+ 
+/* --- SIDEBAR --- */
+#sidebar{
+    width:350px;
+    height:100%;
+    position:fixed;
+    right:60px;
+    background-color:{color:sidebarbg};
+    border-right: 0px solid {color:sidebarborder};
+                    -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.8s ease-out;
+    -moz-transition:all 0.8s ease-out;
+    transition:all 0.8s ease-out;
+    background-image:URL('https://36.media.tumblr.com/2a377a01fbb744d49833e6d49aa119c5/tumblr_n7ygldJCYM1sm0lfto1_500.jpg');
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+    background-position:left -15 top;
+    }
+   
+ 
+.sidebarimg {
+    opacity:0;
+    position:absolute;
+    background-size: auto 100%;
+    background-repeat:no-repeat;
+    background-position:left -25 top;
+    background-color:black;
+    width:350px;
+    height:100%;
+ 
+                        -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.8s ease-out;
+    -moz-transition:all 0.8s ease-out;
+    transition:all 0.8s ease-out;
+}
+ 
+#sidebar:hover .sidebarimg {
+    opacity:1;
+    left:0px;
+                        -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.8s ease-out;
+    -moz-transition:all 0.8s ease-out;
+    transition:all 0.8s ease-out;
+}
+   
+ 
+.innersidebar {
+    position:absolute;
+    width:153px;
+    left:100px;
+    height:100%;
+        margin-top:300px;
+    background-color:transparent;
+                        -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.8s ease-out;
+    -moz-transition:all 0.8s ease-out;
+    transition:all 0.8s ease-out;
+    opacity:1;
+    overflow:hidden;
+}
+#sidebar:hover .innersidebar{
+         margin-top:170px;
+                                 -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.8s ease-out;
+    -moz-transition:all 0.8s ease-out;
+    transition:all 0.8s ease-out;
+}
+ 
+ 
+.description {  
+    padding:2px;
+    padding-top:5px;
+    width:150px;
+    left:0px;
+    max-height:250px;
+    font-size:10px;
+    font-family:calibri;
+    letter-spacing:1px;
+    color:{color:Description};
+    background-color:{color:Descriptionbg};
+    opacity:1;
+    text-align:center;
+    text-transform:uppercase;
+    -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.8s ease-out;
+    -moz-transition:all 0.8s ease-out;
+    transition:all 0.8s ease-out;
+    opacity:0.6;
+    overflow:hidden;
+    }
+ 
+ 
+#mylink{
+    width:100%;
+    background:transparent;
+    margin-top:-250px;
+    text-align:center;
+visibility:hidden;
+opacity:0;
+        -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.8s ease-out;
+    -moz-transition:all 0.8s ease-out;
+    transition:all 0.8s ease-out;
+}
+ 
+#sidebar:hover #mylink{
+       margin-top:0px;
+    visibility:visible;
+    opacity:0.6;
+        -webkit-transition:opacity 0.8s linear;
+    -webkit-transition:all 0.8s ease-out;
+    -moz-transition:all 0.8s ease-out;
+    transition:all 0.8s ease-out;
+}
+ 
+#mylink a{
+    display:block;
+    width:100%;
+    left:0px;
+    font-size:10px;
+    font-family:calibri;
+    letter-spacing:1px;
+    color:{color:Description};
+    background-color:{color:Descriptionbg};
+    margin-top:2px;
+    opacity:0.6;
+        padding:2px;
+    }
+   
+#mylink a:hover {
+        color:{color:Descriptionbg};
+    background-color:{color:Description};
+        }
+ 
+ 
+.title {
+    text-align:center;
+    font-size:15px;
+    font-family: 'Merienda', cursive;
+    text-align:center;
+    position:relative;
+    color:{color:Sidebarnextpage};
+    background-color:transparent;
+    }
+
+ 
+{CustomCSS}
+
+ 
+</style>
+   
+</head>
+ 
+ 
+ 
+<body>
+
+ <body background="https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/potw2022a.jpg" 
+>
+</body>
+
+<div id="container">
+
+
+
+<div id="sidebar">
+    <div class="sidebarimg">
+    </div>
+    <div class="innersidebar">
+
+ <center>
+<font color="white" size='6px' >Daniella Morrone</font>
+        <div id="mylink">
+
+<a href="https://thesolarsphere.blogspot.com/" style="color:white">My Shared Blog</a>
+<a href="https://www.instagram.com/daniella.morrone/" style="color:white">My Instagram</a>
+<a href="https://www.facebook.com/daniella.morrone" style="color:white">My Facebook</a>
+<a href="http://daniellamorrone.tumblr.com/photography" style="color:white" >My Photography</a>
+<a href="http://daniellamorrone.tumblr.com/DaniellaMorrone" style="color:white">Home</a>
+
+</div>  
+</div>
+</div>
+</div>
+ 
+</body>
+</html>
